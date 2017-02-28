@@ -1,0 +1,89 @@
+/*浮动方法，三栏布局，两边固定，中间自适应*/
+
+body{
+	padding: 20px;
+}
+div{
+	border:#999 1px solid;
+	background-color: #fff;
+}
+.container{
+	background-color: #eee;
+	padding: 20px;
+	clear: both;
+	overflow: hidden;
+}
+.left-div{
+	width: 160px;
+	float: left;
+	padding:20px;
+}
+.right-div{
+	width: 80px;
+	float: right;
+	padding:20px;
+
+}
+.middle-div{
+	margin-left:240px;
+	margin-right:160px;
+	padding:20px;
+}
+#name{
+	border:none;
+	float: right;
+	font-size: 15px;
+}
+img{
+	margin-bottom: 20px;
+}
+img:last-child{
+	margin-bottom: 0px;
+}
+
+
+/*定位方法，三栏布局，两边固定，中间自适应.
+  但是因为脱离了文档流，所以只有left-div在6流中，撑不开div
+  clear与hidden都无效*/
+/*body{
+	padding: 20px;
+}
+div{
+	border:#999 1px solid;
+	background-color: #fff;
+}
+.container{
+	background-color: #eee;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.left-div{
+	width: 160px;
+	padding:20px;
+}
+.right-div{
+	width: 80px;
+	padding:20px;
+	position: absolute;
+	top:20px;
+	right: 20px;
+
+}
+.middle-div{
+	padding:20px;
+	left: 240px;
+	right: 160px;
+	top:20px;
+	position: absolute;
+}
+#name{
+	border:none;
+	font-size: 15px;
+}
+img{
+	margin-bottom: 20px;
+}
+img:last-child{
+	margin-bottom: 0px;
+}*/
