@@ -1,0 +1,140 @@
+.header,.footer{
+	background-color: #000;
+	height: 80px;
+	color: #fff;
+	font-size: 14px;
+	width: 100%;
+}
+body{
+	background-color: #CCCCCC;
+}
+
+
+.div1,.div2,.div3,.div4,.div5{
+	border-right:solid 2px #999999;
+	border-bottom:solid 2px #999999;
+	background-color: #fff;
+	margin:20px;
+	padding:20px 25px;
+}
+.div1,.div2,.div3,.div4{
+	margin-right: 490px;
+}
+ul{
+	list-style: none;
+}
+.nav a{
+	text-decoration: none;
+	color: #fff;
+}
+.nav li{
+	float:left;
+	padding-left: 10px;
+}
+.nav>ul{
+	margin-top: -40px;
+	margin-left: 1070px;
+}
+.nav>ul>li:last-child a{
+	color: gray;
+}
+.div1 a{
+	color: blue;
+}
+.div2 a{
+	color: blue;
+}
+.zyx{
+	padding: 10px;
+	width: 150px;
+	border:1px solid #CCCCCC;
+	margin:10px 50px;
+	float: left;
+}
+.div3{
+	overflow: hidden;
+}
+/*.divv{
+	clear: both;
+}*/
+table{
+	width: 100%;
+ 	border-collapse: collapse;
+ 	empty-cells: show;
+ 	border: 1px solid #CCCCCC;
+ }
+ td{
+ 	border: 1px solid #CCCCCC;
+ 	padding:.5em .5em;
+
+ }
+ thead{
+ 	background-color: #000;
+ 	color: #fff;
+ }
+ tfoot{
+ 	background-color: #CCCCCC;
+ }
+tfoot td{
+	border:none;
+}
+button{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #0000FF;
+	color: #fff;
+	border-radius: 10px;
+}
+
+
+ .form-control > label:first-child{
+ 	display: block;
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+.rinput{
+	float: left;
+	margin-left: 10px;
+}
+.rinput>p{
+	font-size: 13px;
+	color: gray
+}
+
+.form-control{
+	clear:both;
+
+	height: 40px;
+}
+textarea{
+	width: 850px;
+	height: 100px;
+}
+.footer{
+	text-align: center;
+}
+.div5>div:first-child{
+	height:2em;
+	border-left: 3px solid #CCCCCC;
+}
+.div5>div:first-child>h3{
+	padding: .2em .5em !important;
+}
+.container{
+	position: relative;
+}
+.div5{
+	position: absolute;
+	width: 400px;
+	top: -20px;
+	right: 0px;
+}
+#text{
+	width: 200px;
+}
+.div1{
+}
+
+
+
