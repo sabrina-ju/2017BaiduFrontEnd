@@ -28,12 +28,13 @@ ul{
 	color: #fff;
 }
 .nav li{
-	float:left;
-	padding-left: 10px;
+	display: inline-block;
+	margin-right: 10px;
 }
+
 .nav>ul{
+	float:right;
 	margin-top: -40px;
-	margin-left: 1070px;
 }
 .nav>ul>li:last-child a{
 	color: gray;
