@@ -1,0 +1,409 @@
+.clearfix {
+    clear: both !important;
+}
+
+body, html {
+    font-family: 'Microsoft Yahei', '微软雅黑', sans-serif;
+}
+
+.container {
+    min-width: 1180px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    height: 75px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.logo-container {
+    float: left;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.logo-container > .logo-image {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-container > .logo-text {
+    display: inline;
+}
+
+.header img {
+    position: relative;
+    top: 15px;
+}
+
+.nav {
+    float: right;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.nav > ul {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+.nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav li:hover {
+    border-bottom: 5px solid red;
+}
+
+/*Container*/
+
+#image-background {
+    background-image: url("Images/003.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: 500px;
+}
+
+.img-position {
+}
+
+.img-txt {
+    color: #fff;
+    font-size: 30px;
+}
+
+.img-txt p.head-text {
+    font-size: 60px;
+}
+
+.img-txt button {
+    width: 250px;
+    background-color: #CC3333;
+    padding: 10px;
+    color: #fff;
+    height: 55px;
+    border: none;
+}
+
+.list-four {
+    margin-top: 30px;
+}
+
+.list-four .list-four-icon .list-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    margin: 0 auto;
+    background-color: #E04952;
+    text-align: center;
+}
+
+.list-four .list-four-icon .list-image i.fa {
+    font-size: 40px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.list-four .list-four-item {
+    text-align: center;
+    display: inline-block;
+    width: 288px;
+    height: 180px;
+}
+
+.list-four .list-four-item p:not(:first-child) {
+    line-height: 40px;
+    border-left: 1px solid #ccc;
+}
+
+.icon {
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 100px;
+}
+
+table {
+    width: 1180px;
+    height: 90px;
+    text-align: center;
+    font-family: STFangsong;
+}
+
+td {
+    height: 40px;
+    width: 140px;
+    border-right: 1px solid #000;
+}
+
+td:last-child {
+    border: none;
+}
+
+.bg-gray {
+    background-color: #E4E4E4;
+    height: 220px;
+    text-align: center;
+    padding-top: 70px;
+    color: #999999;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.bg {
+    background-image: url(http://www.mfqqx.com/uploads/allimg/161220/11-161220163H1.jpg);
+    height: 270px;
+    position: relative;
+}
+
+.bg-red {
+    width: 100%;
+    height: 220px;
+    background-color: rgba(256, 120, 150, .2);
+    position: absolute;
+    top: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.bg-red > div {
+    font-size: 30px;
+}
+
+.search {
+    width: 200px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+#search-btn {
+    height: 40px;
+    background-color: #F34952;
+    color: #fff;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+}
+
+#img-wall {
+    height: 550px;
+
+}
+
+#img-wall div {
+    width: 220px;
+    height: 450px;
+    /*display: inline;*/
+    float: left;
+    margin-left: 7%;
+    text-align: left;
+}
+
+#img-wall img {
+    width: 250px;
+    display: inline;
+}
+
+#img-wall p {
+    width: 250px;
+    font-size: 20px;
+}
+
+.bg-img {
+    width: 60%;
+    height: 200px;
+    background-image: url(http://pic.big5.dbw.cn/0/07/70/29/7702925_844273.jpg);
+    color: #E44A88;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+    float: left;
+}
+
+.bg-img-right {
+    width: 39%;
+    height: 200px;
+    text-align: center;
+    float: right;
+}
+
+.bg-img-right p {
+    padding: 0 40px;
+    font-family: STFangsong;
+    color: #999999;
+
+}
+
+.bg-img-right p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 80px;
+    color: black;
+}
+
+.red-txt {
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid red;
+    width: 140px;
+    margin: auto;
+    color: rgb(255, 0, 0) !important;
+    padding: 5px 0;
+}
+
+.divide-3 {
+    width: 33%;
+    height: 500px;
+    float: left;
+}
+
+#bg-red {
+    background-color: #FF343B;
+    color: white;
+    text-align: center;
+}
+
+#bg-red p {
+    padding-top: 100px;
+}
+
+#bg-white {
+
+    text-align: center;
+}
+
+#bg-white p {
+    padding-top: 100px;
+}
+
+#white-txt {
+    border: 2px solid #fff;
+    width: 20%;
+}
+
+#zyx {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.p-llarge {
+    font-size: 22px;
+}
+
+.p-1arge {
+    font-size: 18px;
+}
+
+.p-small {
+    font-size: 14px;
+    color: #C0C0C0;
+    margin-bottom: 0;
+}
+
+#left-div {
+    width: 30%;
+    float: left;
+    margin-left:4% ;
+}
+
+#left-div a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #C0C0C0;
+    margin-left: 80%;
+}
+
+#right-div {
+    width: 50%;
+    float: left;
+    margin-left:100px;
+}
+
+#right-div input {
+    float: left;
+    display: block;
+    margin-bottom: 18px;
+    font-size: 13px;
+    background-color: rgba(222, 222, 222, .4);
+    color: #666666;
+    height: 28px;
+    width: 240px;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+#right-div textarea {
+    width: 520px;
+    height: 100px;
+    display: block;
+    background-color: rgba(222, 222, 222, .4);
+    color: #666666;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: none;
+
+}
+
+#right-div button {
+    border-radius: 5px;
+    width: 540px;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(222, 222, 222, .4);
+}
+footer{
+    background-color: rgba(9, 4, 36, 0.84);
+    color: #ffffff;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 80px;
+}
+footer input{
+    width: 300px;
+    margin-top: 30px;
+}
+footer .bg-black{
+    background-color: rgba(9, 4, 36, 0.9);
+    height: 80px;
+    font-size:10px;
+    line-height: 80px;
+    margin-top: 40px;
+    text-align: left;
+}
+footer .bg-black > p{
+    display: inline;
+    margin-left:50px;
+}
+footer .bg-black > a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline;
+    float: right;
+    margin-right:50px;
+}
